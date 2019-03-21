@@ -5,9 +5,42 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Stress level quiz</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Are you stressed out? We have solutions!</h2>
+      </div>
+      <form>
+        <div class="warnings">
+          <h6>Please check all signs that apply to you:</h6>
+          <input type="checkbox" name="warning" value="sleep">Loss of sleep<br>
+          <input type="checkbox" name="warning" value="overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="warning" value="focus">Trouble focusing<br>
+        </div>
+        <div class="symptoms">
+          <h6>Please check all symptoms that apply to you:</h6>
+          <input type="checkbox" name="symptom" value="anxiety">Feeling anxious<br>
+          <input type="checkbox" name="symptom" value="blood pressure">High blood pressure<br>
+          <input type="checkbox" name="symptom" value="hair loss">Hair pulling or loss<br>
+          <input type="checkbox" name="symptom" value="nail biting">Nail biting<br>
+          <input type="checkbox" name="symptom" value="sweating">Profuse sweating<br>
+        </div>
+        <button type="submit" class="btn" id="sub-btn">Check out our suggestion!</button>
+      </form>
 
+      <div class="puppy-cuddles">
+        <h3>You should sit in a room of puppies!</h3>
+      </div>
+
+      <div class="meditate">
+        <h3>You should take some time for yourself and meditate!</h3>
+      </div>
+
+      <div class="retreat">
+        <h3>You're pretty stressed! We think an Ayahuasca Retreat in Peru would do you wonders.</h3>
+      </div>
+    </div>
   </body>
 </html>
